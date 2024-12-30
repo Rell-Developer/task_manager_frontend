@@ -11,7 +11,7 @@ Para usar el sistema, debe seguir los siguientes pasos.
 - "npm run dev": Comando para ejecutar el modo desarrollador y refrescar el frontend cuando detecte un cambio en el codigo.
 
 ### Enlace del proyecto desplegado
-- [Task Manager]()
+- [Task Manager](https://task-manager-roque-lopez.netlify.app/)
 ### Autor
 
 - [Roque Lopez](https://www.linkedin.com/in/roque-lopez-4800731a2/)

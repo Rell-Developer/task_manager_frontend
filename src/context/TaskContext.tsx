@@ -306,13 +306,13 @@ const TaskProvider = ({ children }: { children: ReactElement }) => {
                 Authorization: `Bearer ${Token}`
             }
         }
-    }
+    };
 
     const editMode = (task: TaskT) => {
         // Establecemos la tarea a visualizar y abrimos el formulario
         setTask(task);
         setOpenForm("edit");
-    }
+    };
 
     return (
         <TaskContext.Provider value={{
@@ -334,7 +334,7 @@ const TaskProvider = ({ children }: { children: ReactElement }) => {
             { children }
         </TaskContext.Provider>
     )
-}
+};
 
 export {
     TaskProvider
